@@ -1,2 +1,5 @@
 Official Apple swift tutorial with Xcode
 link : https://developer.apple.com/tutorials/develop-in-swift/welcome-to-develop-in-swift-tutorials
+
+Official swift programming tutorial
+link : https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/
