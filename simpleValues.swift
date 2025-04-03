@@ -17,3 +17,10 @@ If the initial value doesn’t provide enough information (or if there isn’t a
 let implicitInteger = 70
 let implicitDouble = 70.0
 let explicitDouble: Double = 70
+
+/*
+Values are never implicitly converted to another type. If you need to convert a value to a different type, explicitly make an instance of the desired type.
+*/
+let label = "The width is "
+let width = 94
+let widthLabel = label + String(width)
