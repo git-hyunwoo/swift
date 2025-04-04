@@ -44,3 +44,22 @@ let quotation = """
 
         I still have \(apples + oranges) pieces of fruit.
         """
+
+/*
+Create arrays and dictionaries using brackets ([]), and access their elements by writing the index or key in brackets. A comma is allowed after the last element.
+*/
+var fruits = ["strawberries", "limes", "tangerines"]
+fruits[1] = "grapes"
+
+
+var occupations = [
+    "Malcolm": "Captain",
+    "Kaylee": "Mechanic",
+ ]
+occupations["Jayne"] = "Public Relations"
+
+/*
+Arrays automatically grow as you add elements.
+*/
+fruits.append("blueberries")
+print(fruits)
