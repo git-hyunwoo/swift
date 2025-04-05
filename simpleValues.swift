@@ -63,3 +63,10 @@ Arrays automatically grow as you add elements.
 */
 fruits.append("blueberries")
 print(fruits)
+// ["strawberries", "grapes", "tangerines", "blueberries"]
+
+/*
+You also use brackets to write an empty array or dictionary. For an array, write [], and for a dictionary, write [:].
+*/
+fruits = []
+occupations = [:]
