@@ -92,3 +92,9 @@ for score in individualScores {
 }
 print(teamScore)
 // Prints "11"
+
+/*
+In an if statement, the conditional must be a Boolean expression — this means that code such as if score { ... } is an error, not an implicit comparison to zero.
+
+You can write if or switch after the equal sign (=) of an assignment or after return, to choose a value based on the condition.
+*/
