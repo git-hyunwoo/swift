@@ -70,3 +70,25 @@ You also use brackets to write an empty array or dictionary. For an array, write
 */
 fruits = []
 occupations = [:]
+
+/*
+If you’re assigning an empty array or dictionary to a new variable, or another place where there isn’t any type information, you need to specify the type.
+*/
+let emptyArray: [String] = []
+let emptyDictionary: [String: Float] = [:]
+
+/*
+Control Flow
+Use if and switch to make conditionals, and use for-in, while, and repeat-while to make loops. Parentheses around the condition or loop variable are optional. Braces around the body are required.
+*/
+let individualScores = [75, 43, 103, 87, 12]
+var teamScore = 09
+for score in individualScores {
+    if score > 50 {
+        teamScore += 3
+    } else {
+        teamScore += 1
+    }
+}
+print(teamScore)
+// Prints "11"
