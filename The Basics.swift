@@ -30,3 +30,15 @@ Here’s an example of how constants and variables can be used to track the numb
 */
 let maximumNumberOfLoginAttempts = 10
 var currentLoginAttempt = 0
+
+/*
+This code can be read as:
+
+“Declare a new constant called maximumNumberOfLoginAttempts, and give it a value of 10. Then, declare a new variable called currentLoginAttempt, and give it an initial value of 0.”
+
+In this example, the maximum number of allowed login attempts is declared as a constant, because the maximum value never changes. The current login attempt counter is declared as a variable, because this value must be incremented after each failed login attempt.
+
+If a stored value in your code won’t change, always declare it as a constant with the let keyword. Use variables only for storing values that change.
+
+When you declare a constant or a variable, you can give it a value as part of that declaration, like the examples above. Alternatively, you can assign its initial value later in the program, as long as it’s guaranteed to have a value before the first time you read from it.
+*/
